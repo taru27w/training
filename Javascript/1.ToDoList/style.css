@@ -1,0 +1,42 @@
+
+/* style.css */
+
+body {
+    font-family: New Gulim, 'Times New Roman', Times, serif;
+    background: #2D63B5;
+}
+
+.container {
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #9abca4;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.search {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.todos li {
+    background: #2c4b79;
+}
+
+.delete {
+    cursor: pointer;
+    color: orange;
+}
+
+.filtered {
+    display: none !important;
+}
